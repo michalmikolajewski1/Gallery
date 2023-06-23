@@ -1,4 +1,4 @@
-const IMAGES = [
+export const IMAGES = [
   {
     id: 1,
     link: 'https://s3.mamotoja.pl/newsy/krajobraz-morskie-oko-123732-4_3_700.jpg',
@@ -6,7 +6,8 @@ const IMAGES = [
     author: 'Autor 1',
     date: '2023-06-20',
     details: 'Szczegóły 1',
-    authorDetails: 'Autor 1 jest doświadczonym fotografem, który specjalizuje się w fotografii przyrodniczej.',
+    authorDetails:
+      'Autor 1 jest doświadczonym fotografem, który specjalizuje się w fotografii przyrodniczej.',
   },
   {
     id: 2,
@@ -15,7 +16,8 @@ const IMAGES = [
     author: 'Autor 2',
     date: '2023-06-21',
     details: 'Szczegóły 2',
-    authorDetails: 'Autor 2 to nowicjusz w świecie fotografii, który jest szczególnie zafascynowany fotografią uliczną.',
+    authorDetails:
+      'Autor 2 to nowicjusz w świecie fotografii, który jest szczególnie zafascynowany fotografią uliczną.',
   },
   {
     id: 3,
@@ -24,7 +26,8 @@ const IMAGES = [
     author: 'Autor 3',
     date: '2023-06-22',
     details: 'Szczegóły 3',
-    authorDetails: 'Autor 3 to doświadczony fotograf portretowy z ponad 10-letnim doświadczeniem w branży.',
+    authorDetails:
+      'Autor 3 to doświadczony fotograf portretowy z ponad 10-letnim doświadczeniem w branży.',
   },
   {
     id: 4,
@@ -33,6 +36,7 @@ const IMAGES = [
     author: 'Autor 4',
     date: '2023-06-23',
     details: 'Szczegóły 4',
-    authorDetails: 'Autor 4 to zapalony podróżnik, który uwielbia dokumentować swoje przygody za pomocą aparatu fotograficznego.',
+    authorDetails:
+      'Autor 4 to zapalony podróżnik, który uwielbia dokumentować swoje przygody za pomocą aparatu fotograficznego.',
   },
 ];
